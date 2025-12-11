@@ -1,3 +1,6 @@
 # bookbot
 
-BookBot is my first [Boot.dev](https://www.boot.dev) project!
+get_book_text = "frankenstein.txt"
+main = get_book_text
+main()
+
