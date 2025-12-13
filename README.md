@@ -1,6 +1,4 @@
 # bookbot
 
-get_book_text = "frankenstein.txt"
-main = get_book_text
-main()
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
 
