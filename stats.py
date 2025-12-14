@@ -3,6 +3,8 @@ def main():
     text = get_book_text(book_path)
     num_words = get_num_words(text)
     print(f"Found {num_words} total words")
+    char_counts = letter_count(text)
+    print(char_counts)
 
 
 def get_book_text(path):
@@ -16,3 +18,15 @@ def get_num_words(text):
 
 
 main()
+
+def letter_count(text):
+    lower_text = text.lower()
+    counts = {}
+
+    for char in lower_text:
+        if char in counts:
+            counts[char] = counts[char] + 1
+        else:
+            counts[char] = 1
+
+    return counts
