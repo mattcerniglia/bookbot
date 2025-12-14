@@ -17,16 +17,13 @@ def get_num_words(text):
     return len(words)
 
 
-main()
-
 def letter_count(text):
     lower_text = text.lower()
     counts = {}
-
     for char in lower_text:
         if char in counts:
             counts[char] = counts[char] + 1
         else:
             counts[char] = 1
-
     return counts
+main()
