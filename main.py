@@ -1,3 +1,10 @@
-get_book_text = frankenstein.txt .read()
-main = print(get_book_text)
+def get_book_text(path):
+  with open(path) as f:
+    path = f.read()
+    return path
+def main():
+  book_path = "books/frankenstein.txt"
+  text = get_book_text(book_path)
+  print(text)
+  return
 main()
