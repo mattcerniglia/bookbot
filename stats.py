@@ -27,10 +27,10 @@ def letter_count(text):
             counts[char] = 1
     return counts
 
-def letter_sort(counts):
-    counts.sort
-    while counts == True:
-        print(counts)
+def letter_sort(letter_count):
+    letter_count.sort
+    while letter_count == True:
+        print(letter_count)
     return
 
 main()
