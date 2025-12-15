@@ -1,1 +1,1 @@
-from stats import get_num_words, letter_count, letter_sort
+from stats import get_num_words, letter_count, get_chars_dict
