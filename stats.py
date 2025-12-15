@@ -27,10 +27,14 @@ def letter_count(text):
             counts[char] = 1
     return counts
 
-def letter_sort(letter_count):
-    letter_sort = letter_count.sort
-    while letter_count == True:
-        print(letter_sort)
-    return
+def sort_on(item):
+    return item["num"]
+
+def letter_sort(counts):
+    char_list = []
+    for char, num in counts.items():
+        char_list.append({"char": char, "num": num})
+    char_list.sort(reverse=True, key=sort_on)
+    return char_list
 
 main()
