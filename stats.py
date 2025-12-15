@@ -28,9 +28,9 @@ def letter_count(text):
     return counts
 
 def letter_sort(letter_count):
-    letter_count.sort
+    letter_sort = letter_count.sort
     while letter_count == True:
-        print(letter_count)
+        print(letter_sort)
     return
 
 main()
