@@ -29,7 +29,7 @@ def letter_count(text):
 
 def letter_sort(counts):
     counts.sort(reverse=True)
-    while counts = True:
+    while counts == True:
         print(counts)
     return
 
