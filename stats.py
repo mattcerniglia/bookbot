@@ -29,7 +29,7 @@ def letter_count(text):
 
 def letter_sort(letter_count):
     letter_count.sort()
-    print(f"{char}: {counts})
+    print(f "{char}: {counts}")
     return
 
 main()
