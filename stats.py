@@ -26,4 +26,10 @@ def letter_count(text):
         else:
             counts[char] = 1
     return counts
+
+def letter_sort(letter_count):
+    letter_count.sort()
+    print(f"{char}: {counts})
+    return
+
 main()
